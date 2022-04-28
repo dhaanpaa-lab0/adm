@@ -1,7 +1,7 @@
 -- Author: Daniel Haanpaa
 -- Purpose: Script to refresh deployable apex apps selection table
 -- Intall Notes:
--- Change LAB0DS to the schema the APEX Deployment Manager is installed in
+-- Change LAB0ODS to the schema the APEX Deployment Manager is installed in
 -- Change apex_210200 to the name of the apex installation schema
 
 DELETE FROM LAB0ODS.ADM_APPS;
